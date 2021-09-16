@@ -14,11 +14,11 @@ class Service extends REST_Controller
   }
   public function index_get()
   {
-    $this->response(array('status'=>true,'message'=>'ICS web get services','result'=>'ICS web get services'),200);
+    $this->response(array('status'=>true,'message'=>'web get services','result'=>' web get services'),200);
   }
   public function index_post()
   {
-    $this->response(array('status'=>true,'message'=>'ICS web post services','result'=>'ICS web post services'),200);
+    $this->response(array('status'=>true,'message'=>' web post services','result'=>' web post services'),200);
   }
 
 }
